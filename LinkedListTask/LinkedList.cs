@@ -1,3 +1,5 @@
+using System.Collections;
+
 namespace LinkedListTask
 {
     public class Node
@@ -12,13 +14,68 @@ namespace LinkedListTask
         }
     }
     
-    public class LinkedList
+    public class LinkedList : IEnumerable
     {
         private Node head;
 
         public LinkedList()
         {
             head = null;
+        }
+        
+        public char this[int index]
+        {
+            get
+            {
+                if (index < 0) throw new IndexOutOfRangeException("Index cannot be negative.");
+                
+                Node current = head;
+                int currentIndex = 0;
+
+                while (current != null)
+                {
+                    if (currentIndex == index) return current.Data;
+                    current = current.Next;
+                    currentIndex++;
+                }
+                
+                throw new IndexOutOfRangeException("Index is out of bounds.");
+            }
+            set
+            {
+                if (index < 0) throw new IndexOutOfRangeException("Index cannot be negative.");
+                
+                Node current = head;
+                int currentIndex = 0;
+
+                while (current != null)
+                {
+                    if (currentIndex == index)
+                    {
+                        current.Data = value;
+                        return;
+                    }
+                    current = current.Next;
+                    currentIndex++;
+                }
+
+                throw new IndexOutOfRangeException("Index is out of bounds.");
+            }
+        }
+        
+        public IEnumerator<char> GetEnumerator()
+        {
+            Node current = head;
+            while (current != null)
+            {
+                yield return current.Data;
+                current = current.Next;
+            }
+        }
+        
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
 
         public void Prepend(char data)

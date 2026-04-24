@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Illya\\RiderProjects\\LinkedListTask\\LinkedListTask\\LinkedListTask.csproj": {}
+    "/home/illya/RiderProjects/LinkedListTask/LinkedListTask/LinkedListTask.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Illya\\RiderProjects\\LinkedListTask\\LinkedListTask\\LinkedListTask.csproj": {
+    "/home/illya/RiderProjects/LinkedListTask/LinkedListTask/LinkedListTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Illya\\RiderProjects\\LinkedListTask\\LinkedListTask\\LinkedListTask.csproj",
+        "projectUniqueName": "/home/illya/RiderProjects/LinkedListTask/LinkedListTask/LinkedListTask.csproj",
         "projectName": "LinkedListTask",
-        "projectPath": "C:\\Users\\Illya\\RiderProjects\\LinkedListTask\\LinkedListTask\\LinkedListTask.csproj",
-        "packagesPath": "C:\\Users\\Illya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Illya\\RiderProjects\\LinkedListTask\\LinkedListTask\\obj\\",
+        "projectPath": "/home/illya/RiderProjects/LinkedListTask/LinkedListTask/LinkedListTask.csproj",
+        "packagesPath": "/home/illya/.nuget/packages/",
+        "outputPath": "/home/illya/RiderProjects/LinkedListTask/LinkedListTask/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Illya\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/illya/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Illya\\.dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.418/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinkedListTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0391e3ffa34c0ecfbefa0921a8bf1e38bf1d7b2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinkedListTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinkedListTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
